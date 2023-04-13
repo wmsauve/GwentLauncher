@@ -1,0 +1,15 @@
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\bin\Release\GameLauncher.exe.config
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\bin\Release\GameLauncher.exe
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\bin\Release\GameLauncher.pdb
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\MainWindow.g.cs
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\App.g.cs
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher_MarkupCompile.cache
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher_MarkupCompile.lref
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\MainWindow.baml
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher.g.resources
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher.Properties.Resources.resources
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher.csproj.GenerateResource.cache
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher.csproj.CoreCompileInputs.cache
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher.exe
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher.pdb
+D:\UnityProjects\GwentLauncher\GameLauncher\GameLauncher\obj\Release\GameLauncher.csproj.AssemblyReference.cache
