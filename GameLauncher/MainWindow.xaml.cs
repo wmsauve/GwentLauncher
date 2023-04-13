@@ -25,9 +25,10 @@ namespace GameLauncher
         private string versionFile;
         private string gameZip;
         private string gameExe;
+        private string gameFolder;
 
-        private string versionDownloadLink = "https://www.dropbox.com/s/jz1jn8s5hj3yb2n/Version.txt?dl=1";
-        private string buildDownladLink = "https://www.dropbox.com/s/ahwggaore5fobzo/GwentBuild.zip?dl=1";
+        private string versionDownloadLink = "https://www.dropbox.com/s/9gk1pllnygv0tzc/Version.txt?dl=1";
+        private string buildDownladLink = "https://www.dropbox.com/s/hfbb6w26apsye7l/GwentBuild.zip?dl=1";
 
         private LauncherStatus _status;
         internal LauncherStatus Status
@@ -65,6 +66,8 @@ namespace GameLauncher
             versionFile = Path.Combine(rootPath, "Version.txt");
             gameZip = Path.Combine(rootPath, "GwentBuild.zip");
             gameExe = Path.Combine(rootPath, "GwentBuild", "GwentClone.exe");
+            gameFolder = Path.Combine(rootPath, "GwentBuild");
+            
 
             Disclaimer.Text = "This is just for funsies. This project is a public repo on github and will not be monetized.";
         }
@@ -133,6 +136,9 @@ namespace GameLauncher
             try
             {
                 string onlineVersion = ((Version)e.UserState).ToString();
+
+                if (Directory.Exists(gameFolder)) Directory.Delete(gameFolder, true);
+
                 ZipFile.ExtractToDirectory(gameZip, rootPath);
                 File.Delete(gameZip);
 
